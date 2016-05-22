@@ -1,0 +1,145 @@
+/*
+ * Name:  [Hamzah Shafeeq]
+ * Assignment:  [Assignment1]
+
+ * [This is a two players game called pig game. Css file for the pig game]
+ */
+body{
+    //background-color: #C0C0C0;
+    background-image: url("../images/a.jpg");    
+}
+#box{
+    margin: 0 auto;
+    margin-top: 160px;
+    height: 500px;
+    width: 650px;
+    border: 5px inset #33FFFF;
+}
+#result{
+    position: relative;
+    left: 170px;
+    border: 5px double #33CCCC;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+#textPlayer1{
+    position: relative;
+    left: 10px;
+    color: white;
+}
+#textPlayer2{
+    position: relative;
+    left: 427px;
+    color: white;
+}
+#player1Total{
+    position: relative;
+    left: 10px;
+    border: 2px solid #33CCCC;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+#diceOne{
+    position: relative;
+    top: 20px;
+    left: 190px;
+    border: 2px solid #33CCCC;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    color: white;
+}
+#diceTwo{
+    position: relative;
+    top: 20px;
+    left: 190px;
+    border: 2px solid #33CCCC;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    color: white;
+}
+#player2Total{
+    position: relative;
+    left: 360px;
+    border: 2px solid #33CCCC;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+#textPoints1{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    color: white;
+}
+#textPoints2{
+    position: relative;
+    top: 50px;
+    left: 383px;
+    color: white;
+}
+#pointsPlayer1{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border: 2px solid #33CCCC;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+#pointsPlayer2{
+    position: relative;
+    top: 50px;
+    left: 486px;
+    border: 2px solid #33CCCC;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+#btnRoll{
+    position: relative;
+    top: 60px;
+    left: 265px;
+    width: 120px;
+    height: 30px;
+    background-color: #33FF99;
+    border-radius: 9px;
+}
+#btnHold{
+    position: relative;
+    left: 227px;
+    top: 80px;
+    width: 190px;
+    background-color: #33FFCC;
+    visibility: visible; 
+}
+#help{
+    position: relative;
+    top: 105px;
+    left: 440px;
+    height: 20px;
+    width: 50px;
+    background-color: #33FF99;
+    border-radius: 9px;
+}
+#restart{
+   position: relative;
+    top: 105px;
+    left: 10px;
+    height: 20px;
+    width: 80px;
+    background-color: #33FF99;
+    border-radius: 9px;
+}

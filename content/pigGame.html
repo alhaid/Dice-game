@@ -1,0 +1,60 @@
+<!--
+ * Name:  [Hamzah Shafeeq]
+ * Assignment:  [Assignment1]
+
+ * [This is a two players game called pig game. This is the pig game html.]
+ -->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pig Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script type="text/javascript" src="../script/script.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <table>
+                <tr>
+                    <td colspan="6"><h2 id="result"></h2></td>
+                </tr>
+                <tr>
+                    <td id="textPlayer1" colspan="2">Player 1</td>
+                    <td id="textPlayer2" colspan="2">Player 2</td>
+                </tr>
+                <tr>
+                    <td id="player1Total"></td>
+                    <td id="diceOne">0</td>
+                    <td id="diceTwo">0</td>
+                    <td id="player2Total"></td>
+                </tr>
+                <tr>
+                    <td id="textPoints1" colspan="2">Player 1 Points</td>
+                    <td id="textPoints2" colspan="2">Player 2 Points</td>
+                </tr>
+                <tr>
+                    <td id="pointsPlayer1"></td>
+                    <td id="pointsPlayer2"></td>
+                </tr>
+                <tr>
+                    <td colspan="5"><button id="btnRoll" onclick="rollDice()">
+                            Start</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5"><button id="btnHold" onclick="hold()">
+                            Hold</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><form><input id="restart" type=button 
+                value="Restart" onClick="history.go()"></form></td>
+                    <td colspan="2"><button id="help" onclick="help()">
+                            Help</button></td>
+                </tr>
+            </table>
+            
+        </div>
+    </body>
+</html>

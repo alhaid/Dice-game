@@ -1,0 +1,56 @@
+/*
+ * Name:  [Hamzah Shafeeq]
+ * Assignment:  [Assignment1]
+
+ * [Css file for the welcome page of the pig game.]
+ */
+body{
+    background-image: url("../images/d.jpg");
+}
+#contener{
+    margin: 0 auto;
+    width: 750px;
+    height: auto;
+    text-align: center;
+}
+#welcome{
+    color: white;
+}
+#text{
+    color: #F0F0F0;
+    font-size: 1.2em;
+    text-shadow: 10px 10px 5px #888888;
+}
+#game{
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+    border: 4px solid #B0B0B0 ;
+    border-radius: 8px;
+    color: green;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#video{
+    position: relative;
+    top: 100px;
+    text-decoration: none;
+    border: 4px solid #B0B0B0 ;
+    border-radius: 8px;
+    color: #700000 ;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#read{
+    position: relative;
+    top: 150px;
+    text-decoration: none;
+    border: 4px solid #B0B0B0 ;
+    border-radius: 8px;
+    color: #FF9933;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 10px 10px 5px #888888;
+}
